@@ -2,7 +2,7 @@
 
 <HEAD>
 
-	<TITLE>Thank you</TITLE>
+	<TITLE>Scarica</TITLE>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,6 +38,29 @@
 			font-weight:400;
 			color: black;
         }
+		.button {
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			font-size: 22px;
+			margin: 4px 2px;
+			cursor: pointer;
+			transition-duration: 0.4s;
+		}
+		
+		.button1 {
+			font-family: "Nunito Sans", serif;
+			color: #07346b; 
+			font-weight: 700;
+			border: 1px solid #07346b;
+			border-radius: 12px;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		
+		.button1:hover {
+			background-color: #bfd9f3;
+			color: black;
+		}
     </style>
 
 
@@ -47,23 +70,39 @@
 
 <BODY >
 
+	<p align="left"><br>
+	<img src="images/logo8-long-tight_w780px.jpg" width=260><br>
+	<img src="images/wave_blue2.png"></p>
 
+	<center>
+	<h1>Scarica la tua risorsa gratuita</h1>
+	<!--Download your free resource-->
 
-<p align="left"><br>
-<img src="images/logo8-long-tight_w780px.jpg" width=260><br>
-<img src="images/wave_blue2.png"></p>
+	</center>
 
-<center>
+	<p>Puoi scegliere tra due livelli. Clicca su un pulsante per scaricare il tuo PDF.</p>
+	<!--You can choose from two levels. Click on a button to download your pdf.-->
 
-<h1> Thank you for signing up!</h1>
-</center>
+	<center>
+	<table width=70% cellpadding=40>
+		<tr>
+			<td> 
+				<p align="center"><font size="4"><b>
+				<button class="button button1" type="button" onclick="document.getElementById('link').click()" download="5 common mistakes in English meetings">Intermediate</a></button>
+				<a id="link" href="freebies/BE freebie B1+ IT.pdf" download hidden></a>
+			</td>
 
+			<td> 
+				<p align="center"><font size="4"><b>
+				<button class="button button1" type="button" onclick="document.getElementById('link').click()" download="5 mistakes to avoid in work meetings">Advanced</a></button>
+				<a id="link" href="freebies/BE freebie B2+ IT.pdf" download hidden></a>
+			</td>
+		</tr>
+	</table>
+	</center>
 
-Check your emails. In a few minutes, you will get an email with a link to your free resource.<br><br>
-Questions? Write to <a href="mailto:someone@example.com">info@fluentbiz.it</a>.
-
-<a href="path_to_file" download="proposed_file_name">Download</a>
-
+	<p>Problemi con il download? Scrivi a <a href="mailto:someone@example.com">info@fluentbiz.it</a>.</p>
+	<!--Problems with your download? Write to <a href="mailto:someone@example.com">info@fluentbiz.it</a>.-->
 
 <FOOTER>
 
