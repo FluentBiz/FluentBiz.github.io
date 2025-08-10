@@ -79,6 +79,29 @@
 			font-weight:400;
 			color: black;
         }
+		.button {
+			padding: 12px 50px;
+			text-align: center;
+			display: inline-block;
+			font-size: 22px;
+			margin: 4px 2px;
+			cursor: pointer;
+			transition-duration: 0.4s;
+		}
+		
+		.button1 {
+			font-family: "Nunito Sans", serif;
+			color: #07346b; 
+			font-weight: 700;
+			border: 1px solid #07346b;
+			border-radius: 12px;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		
+		.button1:hover {
+			background-color: #bfd9f3;
+			color: black;
+		}
     </style>
 
 <!-- Begin Brevo Form -->
@@ -147,6 +170,8 @@
 	<center>
 	<h2> <b>Ti senti bloccato quando parli nelle riunioni in inglese?</b> </h2>
 	<h1> Scarica la guida gratuita e dimostra sicurezza e professionalità già da oggi.</h1>
+	<button class="button button1" type="button" onclick="document.getElementById('link').click()">Scarica</a></button>
+	<a id="link" href="#Sign-up-form" download hidden></a>
 	</center>
 
 	<ul>
@@ -156,7 +181,7 @@
 	</ul>
 
 	<center>
-	<h3> Iscriviti per ricevere la tua guida gratuita: </h3>
+	<h3 id="Sign-up-form"> Iscriviti per ricevere la tua guida gratuita: </h3>
 
 <!-- Brevo Form -->
 <!-- START - We recommend to place the below code where you want the form in your website html  -->
