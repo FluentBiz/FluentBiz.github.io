@@ -1,0 +1,25 @@
+{
+  "id": "/fluentbiz_english_learning_habit_tracker_v16",
+  "name": "FluentBiz – English Learning Habit Tracker",
+  "short_name": "FluentBiz Tracker",
+  "description": "Build a regular English-learning habit with FluentBiz.",
+  "start_url": "/fluentbiz_english_learning_habit_tracker_v16",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#eaf2fb",
+  "theme_color": "#07346b",
+  "icons": [
+    {
+      "src": "fluentbiz-app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "fluentbiz-app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
