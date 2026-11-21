@@ -58,7 +58,7 @@ h1 { font-size:clamp(36px,5.8vw,48px); margin:0 0 10px; line-height:1.08; }
 .option { display:flex; align-items:center; gap:12px; border:1.5px solid var(--line); border-radius:13px; padding:12px; min-height:76px; background:#fff; text-align:left; color:var(--ink); }
 .option.selected { border-color:var(--colour); background:color-mix(in srgb,var(--colour) 11%,white); }
 .symbol { flex:0 0 42px; width:42px; height:42px; border-radius:12px; display:grid; place-items:center; color:#fff; background:var(--colour); font-size:23px; font-weight:700; }
-.option-text { font-size:19px; line-height:1.25; }
+.option-text { font-size:18px; line-height:1.25; }
 .option input { position:absolute; opacity:0; pointer-events:none; }
 .actions { display:flex; gap:10px; flex-wrap:wrap; }
 .primary,.secondary { border:0; border-radius:11px; padding:12px 18px; font-weight:700; }
@@ -97,7 +97,7 @@ dialog::backdrop { background:#15232188; }
 .modal .option { min-height:65px; }
 .note { color:var(--muted); font-size:15px; line-height:1.25; margin-top:18px; }
 
-.tracker-footer { display:grid; grid-template-columns:minmax(0,1fr) 230px; align-items:end; gap:20px; border-top:1px solid #c3dbf4; margin-top:22px; padding-top:18px; }
+.tracker-footer { display:grid; grid-template-columns:minmax(0,1fr) 230px; align-items:center; gap:20px; border-top:1px solid #c3dbf4; margin-top:22px; padding-top:18px; }
 .tracker-instructions h3 { font-family:"Alegreya",Georgia,serif; color:#07346b; font-size:24px; margin:0 0 8px; }
 .tracker-instructions p { color:#52677d; font-size:18px; line-height:1.4; margin:0 0 11px; }
 .tracker-mascot { display:flex; flex-direction:column; align-items:center; justify-content:flex-end; gap:0; min-width:0; }
@@ -138,7 +138,7 @@ dialog::backdrop { background:#15232188; }
  #streakUnit { font-size:15px; }
  .streak-rest span { font-size:13px; }
  .celebration-owl { width:150px; height:145px; }
- .tracker-footer { grid-template-columns:minmax(0,1fr) 120px; gap:8px; align-items:end; }
+ .tracker-footer { grid-template-columns:minmax(0,1fr) 120px; gap:8px; align-items:center; }
  .tracker-instructions h3 { font-size:20px; }
  .tracker-instructions p { font-size:16px; }
  .footer-owl { width:140px; height:170px; }
