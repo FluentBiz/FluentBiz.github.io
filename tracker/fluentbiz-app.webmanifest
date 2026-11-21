@@ -1,7 +1,7 @@
 {
   "id": "/tracker/fluentbiz_english_learning_habit_tracker_v17",
-  "name": "English Habit Tracker",
-  "short_name": "English Habit Tracker",
+  "name": "English Habit",
+  "short_name": "English Habit",
   "description": "Build a regular English-learning habit with FluentBiz.",
   "start_url": "/tracker/fluentbiz_english_learning_habit_tracker_v17",
   "scope": "/tracker/",
